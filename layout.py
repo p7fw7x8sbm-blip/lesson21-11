@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-# 1. Dashboard Title and Objective
+# 1. Dashboard Title & Objective
 st.title("Business Performance Dashboard")
 st.write("Objective: This dashboard provides insights into revenue, customer feedback, and market trends for better business decisions.")
 
@@ -60,8 +60,7 @@ with tab3:
 # 4. Expander for Additional Information
 with st.expander("More Information"):
     st.write("Data was collected through surveys, customer feedback forms, and official sales reports.")
-
-
+    
 
 # 5. Dynamic Loading Simulation
 
